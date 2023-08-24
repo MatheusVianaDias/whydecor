@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat%3Awght%40400%3B500&family=Poppins%3Awght%40300%3B400%3B500&family=Roboto%3Awght%40400%3B500&display=swap%27%29%3B);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #535252;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 1089px) {
+    .content {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 1.9rem
+    }
+
+    .content h1::after {
+        display: none;
+    }
+
+}
+
+
+
+
+/* CONTATO */
+
+.contact {
+    padding: 60px;
+    background-color:  #535252;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_info {
+    display: grid;
+    gap: 20px;
+}
+
+.contact_info h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.contact_info span {
+    width: 50px;
+    background-color: #fff;
+    height: 8px;
+    display: block;
+}
+
+.contact_info>p {
+    color: #adacac;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.contact_tel {
+    display: flex;
+    gap: 20px;
+}
+
+.contact_tel i {
+    font-size: 1.5rem;
+    color: #fff;
+    border: 1.1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    justify-self: start;
+    align-items: center;
+}
+
+.contact_tel div h3 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: .9rem;
+}
+
+
+.contact_tel div p {
+    font-family: 'Poppins';
+    font-size: .9rem;
+    color: #adacac;
+}
+
+
+.contact_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-self: start;
+}
+
+.contact_form input {
+    border-radius: 4px;
+    border: none;
+    padding: 10px 10px 10px 0;
+}
+
+.contact_form textarea {
+    grid-column: 1/-1;
+}
+
+.contact_form input::placeholder, textarea::placeholder {
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 10px;
+    font-size: .9rem;
+    color: #adacac;
+}
+
+.contact_form input:nth-child(3) {
+    grid-column: 1/-1;
+}
+
+.contact_form button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #3c2c97;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact_form button:hover {
+    background-color: #6249a7;
+}
+
+.contact_span {
+    width: 180px;
+    background-color: #fff;
+    height: 5px;
+    grid-template-columns: 1/-1;
+    margin-top: 30px;
+    display: block;
+}
+
+
+/* FOOTER */
+
+
+@media (max-width: 1089px) {
+    main {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main article:nth-child(1) h2::after {
+        display: none;
+    }
+
+    main article:nth-child(1) p {
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    main .prato h3 {
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    main .prato span:last-child {
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .map {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .map h1::after {
+        display: none;
+    }
+
+    .map p {
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .endereco {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    header {
+        display: flex;
+        justify-content: start;
+    }
+
+    header li {
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+
+    header nav .navegacao {
+        display: block;
+        justify-content: start;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secao_menu ul li {
+        flex-direction: column;
+    }
+
+    .map .iframe {
+        display: none;
+
+    }
+
+    .about div {
+        flex-direction: column;
+        margin-left: 18%;
+    }
+
+
+    .contact {
+        display: block;
+        flex-direction: column;
+    }
+
+    .contact_info {
+        margin-bottom: 20px;
+    }
+
+    .contact_form {
+        display: flex;
+        flex-direction: column;
+    
+    }
+}

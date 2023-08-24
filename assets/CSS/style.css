@@ -64,7 +64,7 @@ header .navegacao-primario li a:hover::after {
     width: 100%;
     height: 0px;
     padding: 0px;
-    border-bottom: 4px solid #dc3545
+    border-bottom: 4px solid #06688f;
 }
 
 
@@ -196,7 +196,7 @@ main .sobre {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #dc3545;
+    background-color: #06688f;
 }
 
 .sobre img {
@@ -233,7 +233,7 @@ main .sobre {
 }
 
 .sobre_texto h1::after {
-    background-color: #ff5d56;
+    background-color: #06688f;
     height: 6px;
     width: 60px;
     margin: 20px 0;
@@ -258,7 +258,7 @@ main .sobre {
 }
 
 .sobre_info i {
-    color: #dc3545;
+    color: #06688f;
     display: inline-block;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -384,7 +384,7 @@ main .sobre {
 
 .my_services ul li i {
     font-size: 2.7rem;
-    color: #dc3545;
+    color: #06688f;
 }
 
 .my_services ul li h3 {
@@ -428,15 +428,15 @@ main .sobre {
 .my_services li:hover::before {
     width: 100%;
     height: 100%;
-    border-top: 2px solid red;
-    border-right: 2px solid red;
+    border-top: 2px solid #06688f;
+    border-right: 2px solid #06688f;
 }
 
 .my_services li:hover::after {
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid red;
-    border-left: 2px solid red;
+    border-bottom: 2px solid #06688f;
+    border-left: 2px solid #06688f;
 }
 
 .my_resume {
@@ -455,7 +455,6 @@ main .sobre {
 .resume_generico h2 {
     font-family: 'Poppins';
     font-size: 1.5rem;
-    background-color: #ff5d56;
     justify-self: start;
     padding: 10px;
     border-radius: 1px;
@@ -828,7 +827,8 @@ main .sobre {
     padding: 20px 40px;
     justify-self: center;
     border-radius: 3px;
-    color: #707070;
+    font-size: 20px;
+    color: #33226e;
     border: 1px solid #333;
 }
 
@@ -843,6 +843,9 @@ main .sobre {
         transform: translate3d(0, 0, 0);
     }
 }
+
+
+
 
 /* FOOTER */
 
@@ -891,6 +894,14 @@ footer .footer_comercial {
     text-align: center;
     color: #ffffff;
     font-size: 1.5rem;
+    margin: 90px 0;
+    font-family: 'Poppins';
+}
+
+footer .footer_comercial span {
+    color: #06688f;
+    font-size: 1.9rem;
+    font-weight: 500;
     margin: 90px 0;
     font-family: 'Poppins';
 }
